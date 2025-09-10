@@ -1,6 +1,6 @@
 import os
 
-os.system("clear")
+os.system("cls")
 
 lista1 = [1, 2, 3, 4, 5]
 
@@ -40,3 +40,7 @@ lista1 = lista1 + [4 , 5, 6]
 lista1 += [7 , 8, 9]
 
 print(len(lista1))
+
+lista1.append(10)
+lista1.insert(0, 0)
+print(lista1)
